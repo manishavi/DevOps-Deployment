@@ -13,6 +13,7 @@ const PORT = 8080;
 const HOST = '0.0.0.0';
 const server = app.listen(PORT, HOST, () => {
   console.log('server online');
+  console.log('listening to all interfaces');
 });
 
 /**************************************
@@ -26,4 +27,3 @@ app.get('/', (request, response) => {
 app.get('/version', (request, response) => {
   response.send('1.0.0\n');
 });
-
