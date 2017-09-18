@@ -1,8 +1,8 @@
 /*eslint no-unused-vars: "off"*/
 import React from 'react';
 import ReactDom from 'react-dom';
-import request from 'request';
-import request_promise from 'request-promise';
+// import request from 'request';
+// import request_promise from 'request-promise';
 // removed request and request-promise, they didn't import correctly
 // you can use:
 // axios
